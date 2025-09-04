@@ -20,7 +20,7 @@ const SigninPage = () => {
                   Sign in to your account
                 </h3>
                 <p className="text-body-color mb-11 text-center text-base font-medium">
-                  Login to your account for a faster checkout.
+                  This isn't needed
                 </p>
                 <button className="border-stroke dark:text-body-color-dark dark:shadow-two text-body-color hover:border-primary hover:bg-primary/5 hover:text-primary dark:hover:border-primary dark:hover:bg-primary/5 dark:hover:text-primary mb-6 flex w-full items-center justify-center rounded-xs border bg-[#f8f8f8] px-6 py-3 text-base outline-hidden transition-all duration-300 dark:border-transparent dark:bg-[#2C303B] dark:hover:shadow-none">
                   <span className="mr-3">
