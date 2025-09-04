@@ -23,7 +23,7 @@ const Hero = () => {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
                 <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Your gateway to Japan's best vehicles
+                  Your gateway to Japan&apos;s best vehicles
                 </h1>
                 <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
                   From JDM and classic cars to commercial trucks and heavy machinery like forklifts and excavators — your trusted partner for sourcing and shipping quality vehicles worldwide, hassle-free.
