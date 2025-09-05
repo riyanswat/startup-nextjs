@@ -1,6 +1,6 @@
 import AboutSectionOne from "@/components/About/AboutSectionOne";
 import AboutSectionTwo from "@/components/About/AboutSectionTwo";
-import Breadcrumb from "@/components/Common/Breadcrumb";
+// import Breadcrumb from "@/components/Common/Breadcrumb";
 
 import { Metadata } from "next";
 
@@ -13,10 +13,11 @@ export const metadata: Metadata = {
 const AboutPage = () => {
   return (
     <>
-      <Breadcrumb
+      {/* <Breadcrumb
         pageName="About Us"
         description="A trusted Japan-based Car Exporting company."
-      />
+      /> */}
+      <div className="pt-40"></div>
       <AboutSectionOne />
       <AboutSectionTwo />
     </>

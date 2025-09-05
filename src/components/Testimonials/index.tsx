@@ -5,28 +5,37 @@ import SingleTestimonial from "./SingleTestimonial";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Tariq Sohail",
+    designation: "Pakistan",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "I’ve imported several cars through Rayan Trading and can confidently say their service is outstanding. They’re honest, transparent and clear every step of the way. No hidden fees, no surprises, just smooth, reliable service. I trust them and recommend them to anyone looking for hassle-free vehicle imports. I’ll definitely use them again.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "John Smith",
+    designation: "UK",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "I have imported and still import cars from Rayan Trading. They are reliable and I am satisfied with their team and service.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Farhan",
+    designation: "Australia",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "I am more than satisfied with their service and the cars they have shipped me, highly recommended and happy to answer any questions anyone might have.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 4,
+    name: "Rahman",
+    designation: "Tanzania",
+    content:
+      "I am more than satisfied with their service and the cars they have shipped me, highly recommended and happy to answer any questions anyone might have.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
@@ -37,8 +46,12 @@ const Testimonials = () => {
     <section className="dark:bg-bg-color-dark bg-gray-light relative z-10 py-16 md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle
-          title="What Our Users Says"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          title="What Our Clients Say"
+          paragraph={
+            <>
+            Dealers and individual buyers alike trust us for reliable service, transparent pricing and smooth <span className="font-bold">worldwide</span> shipping.
+            </>
+          } 
           center
         />
 
