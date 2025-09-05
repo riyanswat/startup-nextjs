@@ -26,11 +26,11 @@ const Hero = () => {
                   Your gateway to Japan&apos;s best vehicles
                 </h1>
                 <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
-                  From JDM and classic cars to commercial trucks and heavy machinery like forklifts and excavators — your trusted partner for sourcing and shipping quality vehicles worldwide, hassle-free.
+                  Whether it’s Japanese cars, commercial trucks, heavy machinery like forklifts and excavators, or non-Japanese vehicles — we’re your trusted partner for sourcing and shipping quality vehicles worldwide, hassle-free
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <Link
-                    href="/contact"
+                    href="/signin"
                     className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Get a Free Quote
