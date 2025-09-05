@@ -20,6 +20,19 @@ const NewsLatterBox = () => {
         <button className="bg-primary shadow-submit hover:bg-primary/90 dark:shadow-submit-dark flex w-full items-center justify-center rounded-xs px-9 py-4 text-base font-medium text-white duration-300 cursor-pointer">
           Find us on Google
         </button>
+        
+      </a>
+      <div className="my-4" />
+      <a
+        href="https://www.facebook.com/rtjapan"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="block"
+      >
+        <button className="bg-primary shadow-submit hover:bg-primary/90 dark:shadow-submit-dark flex w-full items-center justify-center rounded-xs px-9 py-4 text-base font-medium text-white duration-300 cursor-pointer">
+          Find us on Facebook
+        </button>
+        
       </a>
 
       {/* Background decoration SVGs */}

@@ -5,8 +5,8 @@ import blogData from "@/components/Blog/blogData";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Blog Page | Free Next.js Template for Startup and SaaS",
-  description: "This is Blog Page for Startup Nextjs Template",
+  title: "Blog Page | Rayan Trading",
+  description: "This is Blog Page for Rayan Trading",
   // other metadata
 };
 

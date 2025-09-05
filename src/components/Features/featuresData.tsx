@@ -74,7 +74,7 @@ const featuresData: Feature[] = [
     ),
     title: "Fully Customizable",
     paragraph:
-      "Tuae nam ex similique incidunt expedita exerci tationem laudantium. Repellendus quisquam numquam perferendis earum sapiente non tempore? Fugit repellat ut maiores.",
+      "hello hello hello test test test.",
   },
   // {
   //   id: 6,
