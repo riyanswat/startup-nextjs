@@ -8,17 +8,17 @@ const Hero = () => {
         id="home"
         className="relative z-10 overflow-hidden bg-white pb-16 pt-[120px] dark:bg-gray-dark md:pb-[120px] md:pt-[150px] xl:pb-[160px] xl:pt-[180px] 2xl:pb-[200px] 2xl:pt-[210px]"
       >
-
 {/* background image */}
-     {/* <Image
-        src="/images/hero-bg.jpg" // Put your image in public/images/
+      <Image
+        src="/images/lexus.jpg" // Put your image in public/images/
         alt="Hero Background"
         fill
-        className="absolute inset-0 object-cover"
+        className="absolute inset-0 object-cover opacity-70 dark:opacity-30"
+        style={{ objectFit: 'cover', filter: 'brightness(0.5)' }}
         priority
-      /> */}
+      />
 
-        <div className="container">
+        <div className="container relative">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div className="mx-auto max-w-[800px] text-center">
@@ -46,7 +46,9 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
+
+        {/* unwanted/ uncessary circles */}
+        {/* <div className="absolute right-0 top-0 z-[-1] opacity-30 lg:opacity-100">
           <svg
             width="450"
             height="556"
@@ -286,7 +288,7 @@ const Hero = () => {
               </radialGradient>
             </defs>
           </svg>
-        </div>
+        </div> */}
 
 
 
