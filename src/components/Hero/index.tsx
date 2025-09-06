@@ -1,5 +1,8 @@
+"use client";
+
 import Image from "next/image";
 import Link from "next/link";
+import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
@@ -13,34 +16,52 @@ const Hero = () => {
         src="/images/lexus.jpg" // Put your image in public/images/
         alt="Hero Background"
         fill
-        className="absolute inset-0 object-cover opacity-70 dark:opacity-30"
-        style={{ objectFit: 'cover', filter: 'brightness(0.5)' }}
+        className="absolute inset-0 object-cover"
+        style={{ objectFit: 'cover' }}
         priority
       />
+      <div className="absolute inset-0 bg-black/60" />
 
         <div className="container relative">
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
-              <div className="mx-auto max-w-[800px] text-center">
-                <h1 className="mb-5 text-3xl font-bold leading-tight text-black dark:text-white sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
-                  Your gateway to Japan&apos;s best vehicles
+              <div className="mx-auto max-w-[800px] text-center text-white">
+                <div className="mb-8 flex items-center justify-center space-x-3">
+                  <span className="text-4xl font-extrabold">Rayan Trading</span>
+                  <Image
+                    src="/images/logo/logo-2.svg"
+                    alt="Rayan Trading logo"
+                    width={80}
+                    height={40}
+                    className="dark:hidden"
+                  />
+                  <Image
+                    src="/images/logo/logo.svg"
+                    alt="Rayan Trading logo"
+                    width={80}
+                    height={40}
+                    className="hidden dark:block"
+                  />
+                </div>
+                <h1 className="mb-5 text-3xl font-bold leading-tight sm:text-4xl sm:leading-tight md:text-5xl md:leading-tight">
+                  <Typewriter
+                    options={{
+                      strings: ["Your gateway to Japan's best vehicles"],
+                      autoStart: true,
+                      loop: false,
+                    }}
+                  />
                 </h1>
-                <p className="mb-12 text-base leading-relaxed! text-body-color dark:text-body-color-dark sm:text-lg md:text-xl">
+                <p className="mb-8 text-base leading-relaxed sm:text-lg md:text-xl">
                   Whether it’s Japanese cars, commercial trucks, heavy machinery like forklifts and excavators, or non-Japanese vehicles — we’re your trusted partner for sourcing and shipping quality vehicles worldwide, hassle-free
                 </p>
-                <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
+                <div className="flex items-center justify-center">
                   <Link
                     href="/signin"
                     className="rounded-xs bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80"
                   >
                     Get a Free Quote
                   </Link>
-                  {/* <Link
-                    href="https://github.com/NextJSTemplates/startup-nextjs"
-                    className="inline-block rounded-xs bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5"
-                  >
-                    Star on GitHub
-                  </Link> */}
                 </div>
               </div>
             </div>
