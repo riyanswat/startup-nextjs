@@ -56,7 +56,13 @@ const Header = () => {
         <div className="container">
           <div className="relative -mx-4 flex items-center justify-between">
             <div className="w-60 max-w-full px-4 xl:mr-12">
-              <Link href="/" className="header-logo block w-full py-5 lg:py-2">
+              <Link
+                href="/"
+                className="header-logo flex w-full items-center space-x-2 py-5 lg:py-2"
+              >
+                <span className="text-xl font-bold text-black dark:text-white">
+                  Rayan Trading
+                </span>
                 <Image
                   src="/images/logo/logo-2.svg"
                   alt="logo"
