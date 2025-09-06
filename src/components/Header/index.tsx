@@ -23,8 +23,12 @@ const Header = () => {
     }
   };
   useEffect(() => {
+    handleStickyNavbar();
     window.addEventListener("scroll", handleStickyNavbar);
-  });
+    return () => {
+      window.removeEventListener("scroll", handleStickyNavbar);
+    };
+  }, []);
 
   // submenu handler
   const [openIndex, setOpenIndex] = useState(-1);
@@ -72,7 +76,7 @@ const Header = () => {
                 />
               </Link>
             </div>
-            <div className="flex w-full items-center justify-between px-4">
+            <div className="ml-auto flex items-center justify-end px-4">
               <div>
                 <button
                   onClick={navbarToggleHandler}
